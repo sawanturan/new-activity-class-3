@@ -10,6 +10,15 @@ namespace new_activity
     {
         static void Main(string[] args)
         {
+            int sum = 0;
+            int i = 0;
+            for (; i<5;)
+            {
+                i++;
+                sum += i;
+            }
+            Console.WriteLine("The sum of the numbers is {0}:", sum);
+            Console.ReadLine();
         }
     }
 }
